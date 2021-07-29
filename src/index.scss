@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(#161616, #b0e7e9) no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+.App {
+  border: 1px solid rgba($color: #1f1f1f, $alpha: 0.5);
+  background-color: rgba($color: #ffffff, $alpha: 0.3);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10%;
+  align-items: center;
+  text-align: center;
+  button {
+    padding: 20px;
+    margin: 20px;
+    border: 1 solid black;
+    border-radius: 100%;
+  }
+}
