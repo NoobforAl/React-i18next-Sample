@@ -7,14 +7,10 @@ const Page = () => {
 
   const { t, i18n } = useTranslation();
 
-  function ChangLanguage() {
-    if (Language === "en") {
-      setLanguage("fa");
-      i18n.changeLanguage(Language);
-    } else {
-      setLanguage("en");
-      i18n.changeLanguage(Language);
-    }
+   function ChangLanguage() {
+    if (Language === "en") setLanguage("fa");
+    else setLanguage("en");
+    i18n.changeLanguage(Language);
   }
 
   return (
